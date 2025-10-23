@@ -1,16 +1,24 @@
-
-body {
-    background-color: #f4f6f7;
-    color: #333;
-    line-height: 1.6;
-}
-
 header {
     text-align: center;
     background-color: #006a4e;
     color: white;
     padding: 2rem 1rem;
 }
+
+header nav a {
+    color: #006a4e; 
+    margin: 0.5rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d0f0d0; 
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+header nav a:hover {
+    background-color: #188126;
+} 
+
 
 header img {
     border-radius: 50%;
@@ -33,6 +41,10 @@ header h3 {
     color: #d0f0d0;
 }
 
+body{
+    background-image: url();
+}
+
 main {
     max-width: 800px;
     margin: 2rem auto;
@@ -43,7 +55,7 @@ section {
     margin-bottom: 2rem;
 }
 
-section h3,section h2 {
+section h3, section h2 {
     color: #006a4e;
     margin-bottom: 0.5rem;
     border-bottom: 2px solid #006a4e;
@@ -52,7 +64,7 @@ section h3,section h2 {
 }
 
 #Profile {
-    background-color: #e2f0e4;
+    background-color: #d0f0d0;
     padding: 1rem;
     border-radius: 5px;
 }
@@ -62,25 +74,112 @@ section h3,section h2 {
     text-align: justify;
 }
 
-footer h3{
+#Education ul {
+    background-color: #d0f0d0;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+#skill td {
+    padding: 0.5rem 1rem;
+    text-align: center;
+    background-color: #d0f0d0;
+    border-radius: 10px;
+}
+
+#skill td:hover {
+    background-color: #00ff00;
+}
+
+#porto table{
+    background-color: #d0f0d0;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+#porto td{
+    text-align: center;
+}
+
+#kontak table{
+    background-color: #d0f0d0;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+#kontak td{
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#kontak input[type = email]{
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: 1px solid #006a4e;
+}
+
+#kontak input[type = number]{
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: 1px solid #006a4e;
+}
+
+#kontak input[type = "text"]{
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: 1px solid #006a4e;
+}
+
+#kontak input[type = "submit"]{
+    background-color: #006a4e;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#kontak input[type = "submit"]:hover{
+    background-color: #004d3a;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#kontak input[type = "reset"]{
+    background-color: #006a4e;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#kontak input[type = "reset"]:hover{
+    background-color: #004d3a;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer h3 {
     color: white;
 }
 
 footer {
     background-color: #006a4e;
-    color: white;
     text-align: center;
     padding: 1.5rem 1rem;
-    margin-top: 2rem;
 }
 
-footer section {
-    border-radius: 10px;
-    background-color: #188126;
-    padding: 1rem;
-    margin-bottom: 1rem;
+footer p{
+    color: white;
 }
 
-footer p {
-    font-size: 0.9rem;
-}
