@@ -169,6 +169,17 @@ section h3, section h2 {
     cursor: pointer;
 }
 
+.error-message {
+    color: red;
+    font-size: 10px;
+    text-align: left;
+    margin: 5px;
+}
+
+.border-error {
+    border: 1px solid red !important;
+}
+
 footer h3 {
     color: white;
 }

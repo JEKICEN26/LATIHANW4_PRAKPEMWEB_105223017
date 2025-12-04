@@ -85,26 +85,37 @@
         <hr color="green">
 
         <section id="kontak">
-            <form action="">
+            <form id="Form">
+                <p id="pesanSukses" style="color: lime; font-weight: bold; text-align:center;"></p>
                 <table border="1" align="center" cellpadding="10">
                     <tr>
                         <th colspan="2">Hubungi Saya</th>
                     </tr>
                     <tr>
                         <td>Nama</td>
-                        <td><input type="text" name="nama" id="nama" required></td>
+                        <td><input type="text" name="nama" id="nama">
+                            <p id="namaError" class="error-message"></p>
+                        </td>
                     </tr>
                     <tr>
                         <td>Email</td>
-                        <td><input type="email" name="email" id="email" required></td>
+                        <td><input type="email" name="email" id="email">
+                            <p id="emailError" class="error-message"></p>
+                        </td>
+                       
                     </tr>
                     <tr>
                         <td>WA</td>
-                        <td><input type="number" name="wa" id="wa" required></td>
+                        <td><input type="number" name="wa" id="wa">
+                            <p id="waError" class="error-message"></p>
+                        </td>
+                       
                     </tr>
                     <tr>
                         <td>Isi Pesan</td>
-                        <td><input type="text" required></td>
+                        <td><input type="text" id="pesan">
+                            <p id="pesanError" class="error-message"></p>
+                        </td>
                     </tr>
                     <tr>
                         <td colspan="2" align="center"><input type="submit" value="Kirim Pesan"> <input type="reset" value="Reset"></td>
@@ -138,5 +149,6 @@
         <p>&copy 2025 Zaky. Semua Hak Cipta dilindungi</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
